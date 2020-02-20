@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9B610C9D23FDF3E200B22B91 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B610C9C23FDF3E200B22B91 /* main.swift */; };
+		9B610CA523FDF71800B22B91 /* data.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B610CA323FDF46400B22B91 /* data.txt */; };
+		9B610CA923FE02F900B22B91 /* SingleUser.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B610CA623FDF9E000B22B91 /* SingleUser.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +22,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9B610CA423FDF70600B22B91 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				9B610CA923FE02F900B22B91 /* SingleUser.json in CopyFiles */,
+				9B610CA523FDF71800B22B91 /* data.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B610CA723FDFB4800B22B91 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9B610C9923FDF3E200B22B91 /* Jsonfile.swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Jsonfile.swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B610C9C23FDF3E200B22B91 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B610CA323FDF46400B22B91 /* data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		9B610CA623FDF9E000B22B91 /* SingleUser.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SingleUser.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				9B610C9C23FDF3E200B22B91 /* main.swift */,
+				9B610CA323FDF46400B22B91 /* data.txt */,
+				9B610CA623FDF9E000B22B91 /* SingleUser.json */,
 			);
 			path = Jsonfile.swift;
 			sourceTree = "<group>";
@@ -72,6 +98,8 @@
 				9B610C9523FDF3E200B22B91 /* Sources */,
 				9B610C9623FDF3E200B22B91 /* Frameworks */,
 				9B610C9723FDF3E200B22B91 /* CopyFiles */,
+				9B610CA423FDF70600B22B91 /* CopyFiles */,
+				9B610CA723FDFB4800B22B91 /* CopyFiles */,
 			);
 			buildRules = (
 			);
